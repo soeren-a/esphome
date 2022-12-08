@@ -38,7 +38,7 @@ api:
             value: !lambda 'return new_pulse_total;'
 
 ota:
-  password: "a0322c02ca91338ec438388b39044d22"
+  password: "xxx"
 
 wifi:
   ssid: !secret wifi_ssid
@@ -47,7 +47,7 @@ wifi:
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "Gasmeter Fallback Hotspot"
-    password: "ICy3qj3ZFota"
+    password: "xxx"
 
 captive_portal:
 
